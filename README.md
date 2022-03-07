@@ -9,3 +9,4 @@ add loader
 demonstrate knowledge of ES6 modules
 make the project catalogue
 format readme.md to include live view
+mobile view
