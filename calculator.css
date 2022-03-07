@@ -70,9 +70,20 @@ body
     flex-direction: column;
 }
 
+#procedure
+{
+    margin-bottom: 7vh;
+}
+
+#factors
+{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
 #result
 {
-    margin-bottom: 3rem;
+    margin-bottom: 2vh;
 }
 
 .clear-all
