@@ -29,7 +29,7 @@ equal_sign.addEventListener('click', () =>
 numbers.forEach((number) => 
 {
 
-  if(equaled == true)
+  if(equaled === true)
   {
     resultNumber.innerText = "";
     equaled = false;
