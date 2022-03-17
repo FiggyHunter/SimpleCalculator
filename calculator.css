@@ -20,11 +20,12 @@ body
     background: linear-gradient(90deg, rgba(44,255,231,1) 0%, rgba(191,246,0,1) 100%, rgba(50,232,17,1) 100%);
 }
 
+/* Grid */
 .container
 {
     display: grid;
     height: 80vh;
-    width: 28vw;
+    width: 30vw;
     background-color: white;
     grid-template-areas: 
         
@@ -37,54 +38,10 @@ body
         "point zerot equal equal";
    
         gap: 2px;
-        grid-auto-columns: minmax(0, 1fr);
+        grid-auto-columns: minmax(2fr, 1.5fr);
 }
 
-.btn
-{
-    background-color: rgb(7, 162, 218);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.4rem;
-}
-
-.btn:hover	
-{
-    cursor: pointer;
-    background-color: teal;
-    color: white;
-}
-
-.result-container
-{
-    color: white;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    font-size: 2rem;
-    padding: 1em;
-    background-color: rgb(34, 28, 28); 
-    grid-area: r;
-    flex-wrap: wrap;  
-    flex-direction: column;
-}
-
-#procedure
-{
-    margin-bottom: 7vh;
-}
-
-#factors
-{
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-}
-
-#result
-{
-    margin-bottom: 2vh;
-}
+/* Grid area definitions */
 
 .clear-all
 {
@@ -175,6 +132,54 @@ body
 {
     grid-area: equal;
 }
+
+
+.btn
+{
+    background-color: rgb(7, 162, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.btn:hover	
+{
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+}
+
+.result-container
+{
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 2rem;
+    padding: 1em;
+    background-color: rgb(34, 28, 28); 
+    grid-area: r;
+    flex-wrap: wrap;  
+    flex-direction: column;
+}
+
+#procedure
+{
+    margin-bottom: 7vh;
+}
+
+#factors
+{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#result
+{
+    margin-bottom: 2vh;
+}
+
 
 
 @media screen and (min-width: 18.75rem) and (max-width: 43.75rem)  
