@@ -1,12 +1,22 @@
 # SimpleCalculator
-A simple calculator web application I made using HTML, CSS and JS
+<h3> A simple calculator web application I made using HTML, CSS and Javascript.<h3>
 
-Live view available at: https://www.leotg.com/calculator/
+<br>
+<br>
+<center>
+<a href="https://www.leotg.com/calculator/" >
+<img width=400px src="https://media.discordapp.net/attachments/876424378055794748/955810863850348554/rect846.png?width=506&height=232">
+</a>
 
-TO:DO \
-add key events \
-add loader \
-demonstrate knowledge of ES6 modules \
-make the project catalogue \
-format readme.md to include live view \
-mobile view 
+<br>
+<br>
+
+<h2> <font color=purple size="6em"> = TO:DO list =</font> </h2>   
+<p> <font color= lightgreen> <del> add key events </del> </font> <p> 
+ <p> add loader <p> 
+<p> <font color= lightgreen> <del> demonstrate knowledge of ES6 modules </del> </font> </p>
+<p>make the project catalogue </p>
+<p> <font color= lightgreen> <del> format readme.md to include live view </del> </font></p>
+<p> <font color= lightgreen> <del>  mobile view </del> </font></p>
+</center>
+
