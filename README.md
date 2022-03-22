@@ -4,11 +4,9 @@
 <br>
 <br>
 <center>
-<a href="https://www.leotg.com/calculator/" >
-<img width=400px src="https://media.discordapp.net/attachments/876424378055794748/955810863850348554/rect846.png?width=506&height=232">
-</a>
+ <p align="center"><a href="https://www.leotg.com/calculator/" ><img width="70%"  src="https://media.discordapp.net/attachments/876424378055794748/955810863850348554/rect846.png?width=506&height=232"></a>
 
-<br>
+
 <br>
 
 <h2> <font color=purple size="6em"> = TO:DO list =</font> </h2>   
@@ -19,4 +17,4 @@
 <p> <font color= lightgreen> <del> format readme.md to include live view </del> </font></p>
 <p> <font color= lightgreen> <del>  mobile view </del> </font></p>
 </center>
-
+</p>
