@@ -2,7 +2,7 @@
 
 :root 
 {
-    --gradient: linear-gradient(90deg, rgba(44,255,231,1) 0%, rgba(191,246,0,1) 100%, rgba(44,255,231,1) 0%);  
+    --gradient: linear-gradient(90deg, rgba(44,255,231,1) 0%, rgb(85, 252, 8) 100%, rgba(44,255,231,1) 0%);  
 }
 
 @keyframes bg-animation {
@@ -29,7 +29,7 @@ body
     width: 100vw;
     background-size: 300%;
     background-image: var(--gradient);
-    animation: bg-animation 10s infinite;
+    animation: bg-animation 4s infinite;
 }
 
 /* Grid */
@@ -37,8 +37,9 @@ body
 {
     display: grid;
     height: 80vh;
-    width: 30vw;
+    width: 24vw;
     background-color: white;
+    box-shadow: inset 10px 5px 25px 5px rgba(0, 0, 0, 0.623), 5px 5px 12px 2px rgba(0, 0, 0, 0.63);
     grid-template-areas: 
         
         "r r r r" 
@@ -49,8 +50,8 @@ body
         "seven eight nine subt"
         "point zerot equal equal";
    
-        gap: 2px;
-        grid-auto-columns: minmax(2fr, 1.5fr);
+        gap: 1px;
+        grid-template-columns: repeat(4,1fr);
 }
 
 /* Grid area definitions */
@@ -188,18 +189,17 @@ body
 
 #factors
 {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-top: 20px;
+    margin-bottom: 1.2em;
 }
 
 #result
 {
-    margin-bottom: 2vh;
+    margin-bottom: .3em;
 }
 
 
-
-@media screen and (min-width: 18.75rem) and (max-width: 43.75rem)  
+@media screen and (min-width: 16.75rem) and (max-width: 43.75rem)  
 {
     .container
     {
@@ -211,4 +211,18 @@ body
         font-size: 1.5rem;
     }
 
+}
+
+
+@media screen and (min-width: 43.75rem) and (max-width: 57.25rem)  
+{
+    .container
+    {
+        width: 60vw;
+    }
+
+    .result-container
+    {
+        font-size: 1.5rem;
+    }
 }
